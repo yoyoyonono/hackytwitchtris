@@ -1,8 +1,6 @@
 import pathlib
 import socket
-import re
 
-CHATPARSE = ':(.*)\!.*@.*\.tmi\.twitch\.tv PRIVMSG #(.*) :(.*)'
 SERVER = 'irc.chat.twitch.tv'
 PORT = 6667
 NICKNAME = pathlib.Path('./nick.txt').read_text()
